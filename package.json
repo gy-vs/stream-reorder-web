@@ -1,0 +1,15 @@
+{
+  "name": "out-of-order-reorder-workbench",
+  "version": "1.0.0",
+  "description": "乱序事件重排与确认工作台：事件时间/到达时间分离、水位线、确认边界与可回放状态链路",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

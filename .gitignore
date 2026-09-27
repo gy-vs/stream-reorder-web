@@ -10,3 +10,6 @@ coverage/
 *.p12
 *.log
 .DS_Store
+
+# 本地事件日志与快照
+data/
