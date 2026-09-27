@@ -1,0 +1,16 @@
+{
+  "name": "reorder-confirm-workbench",
+  "version": "1.0.0",
+  "description": "乱序事件重排与确认工作台：事件时间/到达时间分离、水位推进、窗口确认、待定诊断、规则版本与可回放状态链路",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test --test-reporter=spec test/",
+    "demo": "node scripts/demo.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
